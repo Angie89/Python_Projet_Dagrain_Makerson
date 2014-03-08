@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -35,7 +34,7 @@ INSTALLED_APPS = (
     #'django.contrib.auth',
     #'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
+   # 'django.contrib.messages',
    'django.contrib.staticfiles',
     'GestionESIH',
     'authentification',
@@ -60,7 +59,6 @@ WSGI_APPLICATION = 'exDjango.wsgi.application'
 TEMPLATE_DIRS=(
     #"C:\Users\Ing. Dagrain\exoDjango\TEMPLATE"
     os.path.join(os.path.dirname(__file__), 'TEMPLATES').replace('\\', '/'),
-    '/exDjango/TEMPLATES/static',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -119,5 +117,5 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-    '/exDjango/TEMPLATES/static',
+    "exDjango/TEMPLATES/static"
 )

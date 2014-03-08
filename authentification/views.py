@@ -32,7 +32,7 @@ def login (request):
 
     except KeyError:
         pass
-    html = get_template("web/authen.html")
+    html = get_template("authen.html")
     page = html.render(Context(context))
     return HttpResponse(page)
 
