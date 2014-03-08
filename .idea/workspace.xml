@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b79afb3-f0fe-43bd-8096-c5a6d64f5c3f" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Ing. Dagrain\exoDjango\GestionESIH\settings.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/settings.py" afterPath="$PROJECT_DIR$/exDjango/settings.py" />
+      <change type="MOVED" beforePath="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\authen.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/web/authen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authentification/views.py" afterPath="$PROJECT_DIR$/authentification/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exoDjango.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="0.6307421" vertical-offset="0" max-vertical-offset="2975">
+            <state line="21" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="2975">
               <folding>
                 <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -60,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/descriptif_cours/models.py">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authentification/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="770" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+            <state line="34" column="30" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.73057854" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -119,7 +121,7 @@
         </entry>
       </file>
       <file leaf-file-name="authen.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/authen.html">
+        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/web/authen.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="19" selection-start="196" selection-end="196" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="748">
               <folding />
@@ -147,7 +149,6 @@
       <list>
         <option value="$PROJECT_DIR$/exDjango/TEMPLATES/listingTitreCours.html" />
         <option value="$PROJECT_DIR$/GestionESIH/views.py" />
-        <option value="$PROJECT_DIR$/authentification/views.py" />
         <option value="$PROJECT_DIR$/exDjango/TEMPLATES/modifierProf.html" />
         <option value="$PROJECT_DIR$/enregistrer_cours/views.py" />
         <option value="$PROJECT_DIR$/fiche_professeur/views.py" />
@@ -161,6 +162,7 @@
         <option value="$PROJECT_DIR$/exDjango/settings.py" />
         <option value="$PROJECT_DIR$/exDjango/wsgi.py" />
         <option value="$PROJECT_DIR$/exDjango/templates/admin.html" />
+        <option value="$PROJECT_DIR$/authentification/views.py" />
       </list>
     </option>
   </component>
@@ -297,6 +299,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exoDjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exoDjango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authentification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -318,6 +334,7 @@
       <recent name="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\web" />
       <recent name="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static" />
       <recent name="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static\css" />
       <recent name="C:\Users\Ing. Dagrain\exoDjango\exDjango" />
@@ -543,15 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authentification/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="4" selection-start="1385" selection-end="1428" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1156">
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/modificationCode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="63" selection-start="773" selection-end="783" vertical-scroll-proportion="-5.269231" vertical-offset="152" max-vertical-offset="935">
@@ -587,15 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/descriptif_cours/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="314" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="38" selection-start="405" selection-end="405" vertical-scroll-proportion="-2.6153846" vertical-offset="102" max-vertical-offset="1445">
@@ -628,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.0" vertical-offset="1571" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -642,7 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/authen.html">
+    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/web/authen.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="19" selection-start="196" selection-end="196" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="748">
           <folding />
@@ -651,10 +643,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="0.6307421" vertical-offset="0" max-vertical-offset="2975">
+        <state line="21" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="2975">
           <folding>
             <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exDjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.0" vertical-offset="1571" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptif_cours/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="314" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentification/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="30" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.73057854" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
         </state>
       </provider>
     </entry>
