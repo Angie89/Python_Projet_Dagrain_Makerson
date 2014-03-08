@@ -1,0 +1,79 @@
+
+{% extends "admin.html" %}
+
+{% block content %}
+<center>
+
+	<form method="post" action="" class="cours" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 5px #60c8f2; -box-box-shadow: 0 0 5px #60c8f2; box-shadow: 0 0 5px #60c8f2;">
+	 <p>
+      <label >Code cours</label>
+      <select name = "code cours">
+          {{% for el in  codeCours %}}
+      <option >{{el.nomCours}}-{{el.grade}}{{el.semestre}}-{{el.etablissement}}</option>
+          {{% endfor %}}
+      </select>
+    </p><br  />
+	<!--<p>-->
+      <!--<label >Titre cours</label>-->
+      <!--<input  required="required" type="text" name="Titre cours" id="Titre cours"/>-->
+    <!--</p><br  />-->
+      <p>
+      <label >Credit</label>
+      <input  required="required" type="text" name="Credit" id="Credit"/>
+    </p> <br  />
+
+        <p>
+     <label>Universite</label>
+      <input  type="text" name="Lieu" id="Lieu"/>
+    </p><br  />
+
+         <p>
+      <label >Professeur</label>
+       <input  required="required" type="text" name="prof" id="prof"/>
+    </p><br  />
+
+        <p>
+        <label>format</label>
+            <select name ="format">
+                <option value="Presentation magistrale">Presentation magistrale</option>
+				<option value="TD">TD</option>
+				<option value="TP">TP</option>
+                <option value="Autres">Autres</option>
+            </select>
+        </p><br  />
+
+         <!--<label >Format</label>-->
+                                    <!--<input list="pays" name="pays" required="required"/>-->
+									<!--<datalist id="pays">-->
+									<!--<option value="Presentation magistrale">-->
+									<!--<option value="TD">-->
+									<!--<option value="TP">-->
+                                    <!--<option value="Autres">-->
+									<!--</datalist>-->
+    <!--</p><br  />-->
+
+ <p>
+    <label >Public cible</label>
+                                   <select name = public>
+                                    <option value="Etudiants">Etudiants</option>
+									<option value="Professionnels">Professionnels</option>
+									<option value="Autres"> Autres</option>
+                                   </select>
+    </p><br  />
+        <p class="register" style="z-index: 21;">
+      <input type="submit" name="btRegister" value="Enregistrer" style="background-color:#60c8f2; color:#fffff; width: 100px; border: 1px solid #fff; border-radius:5px 5px 5px 5px;"/>
+    </p>
+        <div class="more margin-30px">
+                    <ul>
+                        <li><a href="../Objectives/">&laquo;</a></li>
+                        <li class="active"><span>1</span></li>
+                        <li><a href="../Objectives/">2</a></li>
+                        <li><a href="../Description/">3</a></li>
+                        <li><a href="../Evaluations/">4</a></li>
+                        <li><a href="../Ressources/">5</a></li>
+                        <li><a href="../Ressources/">&raquo;</a></li>
+                    </ul>
+                </div>
+     </form>
+	 </center>
+{% endblock%}

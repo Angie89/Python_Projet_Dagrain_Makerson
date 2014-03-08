@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    {% extends "admin.html" %}
+<html>
+<head>
+    <title></title>
+    <style>
+ table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+{% block content %}
+<center>
+    <h2> Premiere Annee - 1er Semestre 2013-2014</h2>
+    <h4>Enseignements obligatoires</h4>
+
+    <table>
+        <tr>
+            <th> Enseignement</th>
+            <th> volume horaire semestriel</th>
+            <th> Credits</th>
+            <th>Enseignants</th>
+            <th> Ressources</th>
+        </tr>
+        <tr>
+            <td>Sciences</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br />
+
+    <h4>Enseignements optionnels</h4>
+     <table>
+        <tr>
+            <th> Enseignement</th>
+            <th> volume horaire semestriel</th>
+            <th> Credits</th>
+            <th>Enseignants</th>
+            <th> Ressources</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+ </center>
+{% endblock%}

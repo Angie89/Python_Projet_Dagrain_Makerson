@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+ <html lang="fr">
+{% load staticfiles %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>login</title>
+  <link rel="stylesheet" href="{% static 'css/design.css' %}">
+</head>
+<body>
+<br  />
+
+  <form method="post" action="" class="login" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 8px #60c8f2;
+	 -box-box-shadow: 0 0 8px #60c8f2; box-shadow: 0 0 8px #60c8f2;">
+	 <p>
+	 <span><center><img src="{% static 'images/esi.png' %}"></center></span>
+	 </p>
+      <p>
+         <center><strong style="color:#60c8f2; font-size: 20px;text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);"> Chercher, Innover, Entreprendre</strong></center>
+      </p><br/>
+    <p>
+
+      <label for="login">Email:</label>
+      <input  required="required" type="text" name="mail" id="mail" placeholder= "name@example.com"/>
+    </p>
+
+    <p>
+      <label for="password">Password:</label>
+      <input  required="required" type="password" name="password" id="password" placeholder ="**********"/>
+    </p>
+
+   <p class="login-submit">
+      <button type="submit" name="btLogin" class="login-button">Login</button>
+    </p>
+   <center><strong style="color:red;">{{error}}</strong><br/></center>
+     </form>
+
+  </body>
+</html>

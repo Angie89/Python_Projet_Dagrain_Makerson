@@ -1,0 +1,147 @@
+{% load staticfiles %}
+<html>
+<head>
+<script src="{% static 'js/ckeditor/ckeditor.js' %}" type="text/javascript"></script>
+<title> Administrator Dashboard</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<style>
+
+input, button, label {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password], input[list], input[type=submit]  {
+  padding: 0 10px;
+  width: 300px;
+  height: 40px;
+  color: black;
+  border-radius: 5px;
+  }
+
+label {
+  float: left;
+  width: 100px;
+  line-height: 40px;
+  padding-right: 10px;
+  font-weight: 100;
+  text-align: right;
+  letter-spacing: 1px;
+}
+</style>
+</head>
+<body>
+<header>
+    	<div class="wrap">
+            <br />
+            <div class="logo">
+                <a href="#"><img src="{% static 'images/esi.png' %}" alt=""> <strong style="color:#60c8f2; font-size:2em; text-shadow: 0px 3px 0px #b2a98f,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1);">Chercher, Innover, Entreprendre</strong></a>
+
+            </div>
+            <div>
+
+            </div>
+            <div class="">
+				<p class="last"> <span class="strong">{{userid}}</span> <a href="../logout/">Logout</a></p>
+			</div>
+           <div class="clearFloat"></div>
+               <!--<div class="more">
+                <a href="#"></a>
+            </div>-->
+         </div>
+    </header>
+<br />
+    <div class="wrap">
+        <div class="one sidebar">
+            <div class="widget">
+                <ul id="menu-accordeon">
+                    <li ><a href="/descriptifCours/">Descriptif Cours</a></li>
+                    <li class="active"><a href="/ficheProfesseur/" >fiche professeur</a></li>
+					<li><a href="#" >Scolarite</a>
+                     <!--<ul>-->
+                        <!--<li><a href="#">DUT I</a></li>-->
+                        <!--<li><a href="#">DUT II</a></li>-->
+                        <!--<li><a href="#">Premiere Annee </a></li>-->
+                        <!--<li><a href="#">Deuxieme Annee</a></li>-->
+                        <!--<li><a href="#">Troisieme Annee</a></li>-->
+                        <!--<li><a href="#">Master I</a></li>-->
+                        <!--<li><a href="#">Master II</a></li>-->
+                     <!--</ul>-->
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    <div class="content">
+      {% block content %}
+
+<center>
+
+	<form method="post" action="" class="cours" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 5px #60c8f2; -box-box-shadow: 0 0 5px #60c8f2; box-shadow: 0 0 5px #60c8f2;">
+	 <p>
+      <label >Nom</label>
+      <input  required="required" type="text" name="Nom" id="Nom" />
+    </p><br  />
+	<p>
+      <label >Prenom</label>
+      <input  required="required" type="text" name="Prenom" id="Prenom"/>
+    </p><br  />
+      <p>
+      <label>Mail</label>
+      <input  required="required" type="text" name="mail" id="mail" placeholder= "name@example.com"/>
+    </p><br  />
+	 <p>
+    <label >Sexe</label>
+                                    <select name = "sexe">
+                                    <option value="Masculin">M</option>
+                                    <option value="Feminin">F</option>
+									</select>
+    </p><br  />
+         <label >Pays</label>
+                                   <select name = "pays">
+								   <option value="Haiti">Haiti</option>
+								   <option value="France">France</option>
+								   <option value="USA">USA</option>
+                                   <option value="Afrique">Afrique</option>
+								   </select>
+    </p><br  />
+    <p>
+      <label >Blog/site</label>
+      <input  required="required" type="text" name="url" id="url"/>
+    </p><br  />
+        <p>
+        <label>upload cv</label>
+        <input  required="required" type="file" value="upload"/>
+        </p><br />
+     <p class="register" style="z-index: 21;">
+      <input type="submit" name="btRegister" value="Enregistrer" style="background-color:#60c8f2; color:#fffff; width: 100px; border: 1px solid #fff; border-radius:5px 5px 5px 5px;"/>
+    </p>
+
+     </form>
+	 </center>
+        {% endblock %}
+ </div>
+
+        <div class="sidebar two">
+
+        </div>
+            <footer>
+            <div class="wrap">
+                <div class="clearFloat"></div>
+                <div class="copy"><p>&copy; ESIH 2013 All Rights Reserved | Designed by - <a href="#">Michel-Ange DAGRAIN & Pierre Makerson CHERY</a></p></div>
+
+            </div>
+    </footer>
+</body>
+</html>

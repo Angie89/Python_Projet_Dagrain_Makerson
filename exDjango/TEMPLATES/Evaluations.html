@@ -1,0 +1,22 @@
+ {% extends "admin.html" %}
+{% block content %}
+
+<center>
+
+	<form method="post" action="" class="cours" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 5px #60c8f2; -box-box-shadow: 0 0 5px #60c8f2; box-shadow: 0 0 5px #60c8f2;">
+       <p style="color:#60c8f2; font-size:3em;">Evaluations
+      <textarea class ="ckeditor" name="evaluation" id="evaluation" ></textarea>
+    </p><br  />
+         <p class="register" style="z-index: 21;">
+      <input type="submit" name="btRegister" value="Enregistrer" style="background-color:#60c8f2; color:#fffff; width: 100px; border: 1px solid #fff; border-radius:5px 5px 5px 5px;"/>
+    </p>
+        <div class="more margin-30px">
+                    <ul>
+                        <li><a href="../descriptifCours/">&laquo;</a></li>
+                        <li class="active"><span>1</span></li>
+                        <li><a href="../Ressources/">&raquo;</a></li>
+                    </ul>
+                </div>
+    </form>
+   </center>
+         {% endblock %}

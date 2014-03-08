@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    {% extends "admin.html" %}
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+{% block content %}
+<center>
+
+	<form method="post" action="/../users/" class="cours" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 5px #60c8f2; -box-box-shadow: 0 0 5px #60c8f2; box-shadow: 0 0 5px #60c8f2;">
+	 <p>
+      <label >Nom</label>
+      <input  required="required" type="text" name="Nom" id="Nom" />
+    </p><br  />
+	<p>
+      <label >Prenom</label>
+      <input  required="required" type="text" name="Prenom" id="Prenom"/>
+    </p><br  />
+      <p>
+      <label>Mail</label>
+      <input  required="required" type="text" name="mail" id="mail" placeholder= "name@example.com"/>
+    </p><br  />
+	<!-- <p>
+    <label >Date</label>
+  <input type="date" name="dat"/>
+    </p><br  />-->
+
+<center><p class="register" style="z-index: 21;">
+      <input type="submit" name="btRegister" value="Enregistrer" style="background-color:#60c8f2; color:#fffff; width: 100px; border: 1px solid #fff; border-radius:5px 5px 5px 5px;"/>
+    </p></center>
+
+     </form>
+	 </center>
+{% endblock%}
+</body>
+</html>

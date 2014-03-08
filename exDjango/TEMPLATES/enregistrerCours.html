@@ -1,0 +1,90 @@
+ {% extends "admin.html" %}
+{% block content %}
+
+             <center>
+
+	<form method="post" action="/../enregistrerCours/" class="cours" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 5px #60c8f2; -box-box-shadow: 0 0 5px #60c8f2; box-shadow: 0 0 5px #60c8f2;">
+	 <p>
+      <label >Etablissement</label>
+      <input  required="required" type="text" name="etablissment" id="etablissment" />
+    </p><br  />
+	<p>
+      <label >Cours</label>
+      <input  required="required" type="text" name="cours" id="cours"/>
+    </p><br  />
+	 <p>
+    <label >Grade</label>
+                                  <select name = "Grade">
+                                    <option value="DUT1"> DUT1 </option>
+                                    <option value="DUT2"> DUT2</option>
+									<option value="L1">L1</option>
+									<option value="L2">L2</option>
+									<option value="L3">L3</option>
+                                    <option value="M1">M1</option>
+                                    <option value="M2">M2</option>
+
+                                  </select>
+    </p><br  />
+    <p>
+    <label >Semestre</label>
+                                    <select name ="Semestre">
+									<option value="S1">S1</option>
+									<option value="S2">S2</option>
+									<option value="Y">Y</option>
+                                    </select>
+
+    </p><br  />
+    <p>
+      <label >Langue</label>
+      <select name ="langue">
+									<option value="A">Anglais</option>
+									<option value="Fr">Francais</option>
+									<option value="Cr">Creole</option>
+                                    <option value="Es">Espagnol</option>
+                                    </select>
+
+    </p><br  />
+
+     <p>
+          <label >Mention</label>
+      <input type="radio" name="mention" value="SI" checked> Sciences Informatiques
+      <input type="radio" name="mention" value="E&G"> Economie et Gestion
+    </p><br  /><br />
+
+        <p>
+
+  <label >Specialite</label>
+                                    <select name = "Specialite">
+             						<option value="TEL">Telecom</option>
+									<option value="BDD">Base de donnees</option>
+                                    <option value="ONE">Organisation de la Net Economie</option>
+                                    <option value="SdE">Sciences de l'Entreprise</option>
+                                    <option value="SC">Sciences Comptables</option>
+
+                                    </select>
+
+    </p><br  />
+
+     <p>
+      <label >Type cours</label>
+      <input type="radio" name="typecours" value="OB" checked> Obligatoire
+      <input type="radio" name="typecours" value="O"> Optionel
+       </p><br  /> <br />
+
+      <p>
+      <label >Domaine </label>
+      <input type="radio" name="domaine" value="ST" checked> Sciences et Technologies
+      <input type="radio" name="domaine" value="E&G"> Economie et Gestion
+       </p><br  />
+
+  <center><p class="register" style="z-index: 21;">
+      <input type="submit" name="btRegister" value="Enregistrer" style="background-color:#60c8f2; color:#fffff; width: 100px; border: 1px solid #fff; border-radius:5px 5px 5px 5px;"/>
+    </p></center>
+
+     </form>
+	 </center>
+
+	 {% endblock %}
+
+    </body>
+</html>

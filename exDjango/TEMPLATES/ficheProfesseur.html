@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    {% extends "admin.html" %}
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+{% block content %}
+<center>
+
+	<form method="post" action="" class="cours" autocomplete="on" style="padding: 50px; border: 2px solid #49006E; border-radius: 5px; -webkit-box-shadow: 0 0 5px #60c8f2; -box-box-shadow: 0 0 5px #60c8f2; box-shadow: 0 0 5px #60c8f2;">
+	 <p>
+      <label >Nom</label>
+      <input  required="required" type="text" name="Nom" id="Nom" />
+    </p><br  />
+	<p>
+      <label >Prenom</label>
+      <input  required="required" type="text" name="Prenom" id="Prenom"/>
+    </p><br  />
+      <p>
+      <label>Mail</label>
+      <input  required="required" type="text" name="mail" id="mail" placeholder= "name@example.com"/>
+    </p><br  />
+	 <p>
+    <label >Sexe</label>
+                                    <select name = "sexe">
+                                    <option value="Masculin">M</option>
+                                    <option value="Feminin">F</option>
+									</select>
+    </p><br  />
+         <label >Pays</label>
+                                   <select name = "pays">
+								   <option value="Haiti">Haiti</option>
+								   <option value="France">France</option>
+								   <option value="USA">USA</option>
+                                   <option value="Afrique">Afrique</option>
+								   </select>
+    </p><br  />
+    <p>
+      <label >Blog/site</label>
+      <input  required="required" type="text" name="url" id="url"/>
+    </p><br  />
+        <p>
+        <label>upload cv</label>
+        <input  required="required" type="file" value="upload"/>
+        </p><br />
+     <p class="register" style="z-index: 21;">
+      <input type="submit" name="btRegister" value="Enregistrer" style="background-color:#60c8f2; color:#fffff; width: 100px; border: 1px solid #fff; border-radius:5px 5px 5px 5px;"/>
+    </p>
+
+     </form>
+	 </center>
+{% endblock%}
+</body>
+</html>
