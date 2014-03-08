@@ -50,7 +50,7 @@ label {
 
             </div>
             <div class="">
-				<p class="last"> <span class="strong">{{userid}}</span> <a href="../logout/">Logout</a></p>
+				<p class="last"> <span class="strong">{{userid}}</span> <a href="/professeur/logout/">Logout</a></p>
 			</div>
            <div class="clearFloat"></div>
                <!--<div class="more">
@@ -59,12 +59,12 @@ label {
          </div>
     </header>
 <br />
-    <div class="wrap">
-        <div class="one sidebar">
+<div class="wrap">
+    <div class="one sidebar">
             <div class="widget">
-                <ul id="menu-accordeon">
-                    <li ><a href="/descriptifCours/">Descriptif Cours</a></li>
-                    <li class="active"><a href="/ficheProfesseur/" >fiche professeur</a></li>
+                <ul class="menu-accordeon">
+                    <li ><a href="/professeur/descriptifCours/">Descriptif Cours</a></li>
+                    <li class="active"><a href="/professeur/ficheProfesseurprof/" >fiche professeur</a></li>
 					<li><a href="#" >Scolarite</a>
                      <!--<ul>-->
                         <!--<li><a href="#">DUT I</a></li>-->
@@ -81,8 +81,9 @@ label {
                 </ul>
             </div>
 
-        </div>
+     </div>
 
+</div>
     <div class="content">
       {% block content %}
 

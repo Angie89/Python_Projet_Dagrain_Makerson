@@ -22,10 +22,16 @@ def login (request):
         username = request.POST['mail']
         password = request.POST['password']
         user = Authentification.objects.filter(username=username,password=password)
-        if len(user) > 0:
-            request.session['userid'] = username
-            context['userid']=request.session['userid']
-            return redirect('/admin/', context_instance=request)
+        for personne in list:
+            if personne.username==username and personne.password==password:
+                request.session['userid'] = username
+                request.session['status'] = personne.statut
+                context['userid']=request.session['userid']
+                context['status']=request.session['status']
+                if personne.statut == True:
+                    return redirect('/admin/', context_instance=request)
+                else:
+                    return redirect('/professeur/', context_instance=request)
         else:
             context['error'] = 'Username ou password incorrect'
 

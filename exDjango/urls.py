@@ -3,7 +3,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 #from django.contrib import admin
 from authentification.views import login, admin, logout
 from enregistrer_cours.views import enregistrerCours
-from fiche_professeur.views import ficheProfesseur, modifierProf, deleteProf, professeur
+from fiche_professeur.views import ficheProfesseuradmin,ficheProfesseurprof, modifierProf, deleteProf, professeur
 from descriptif_cours.views import descriptifCours, Objectives, Description, Ressources, Evaluations
 from enregistrer_cours.views import insertTitre, filtrage, modifier, modifierProgramme,recupercode
 from GestionESIH.views import ajouterUser, users, scolarite
@@ -19,13 +19,15 @@ urlpatterns = patterns('',
    # url(r'^info/(?P<cours>\d+)/(?P<prof>\d+)/$','GestionESIH.views.information'),
     url(r'^login/$',login),
     url(r'^$',login),
-    url(r'^logout', logout),
+    url(r'^professeur/logout', logout),
+     url(r'^admin/logout', logout),
     url(r'^admin/$',admin),
-    url(r'^users/$',ajouterUser),
-    url(r'^enregistrerCours/$', insertTitre),
-    url(r'^ficheProfesseur/$', ficheProfesseur),
+    url(r'^admin/users/$',ajouterUser),
+    url(r'^admin/enregistrerCours/$', insertTitre),
+    url(r'^admin/ficheProfesseuradmin/$', ficheProfesseuradmin),
+    url(r'^professeur/ficheProfesseurprof/$', ficheProfesseurprof),
     url(r'^professeur/$', professeur),
-    url(r'^descriptifCours/$', descriptifCours),
+    url(r'^professeur/descriptifCours/$', descriptifCours),
     url(r'^Objectives/$',Objectives),
     url(r'^Description/$',Description),
     url(r'^Ressources/$',Ressources),

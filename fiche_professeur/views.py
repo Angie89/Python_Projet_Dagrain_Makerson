@@ -8,9 +8,16 @@ from django.template import Context
 from fiche_professeur.models import Professeur
 
 
-def ficheProfesseur(request):
+def ficheProfesseuradmin(request):
     context = {}
-    html = get_template("ficheProfesseur.html")
+    html = get_template("ficheProfesseuradmin.html")
+    fiche = html.render(Context(context))
+    return HttpResponse(fiche)
+
+
+def ficheProfesseurprof(request):
+    context = {}
+    html = get_template("ficheProfesseurprof.html")
     fiche = html.render(Context(context))
     return HttpResponse(fiche)
 

@@ -1,10 +1,13 @@
-{% load staticfiles %}
 <html>
 <head>
+
+    <title> Administrator Dashboard</title>
+
+    {% load staticfiles %}
 <script src="{% static 'js/ckeditor/ckeditor.js' %}" type="text/javascript"></script>
-<title> Administrator Dashboard</title>
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 <style>
 
 input, button, label {
@@ -50,7 +53,7 @@ label {
 
             </div>
             <div class="">
-				<p class="last"> <span class="strong">{{userid}}</span> <a href="../logout/">Logout</a></p>
+				<p class="last"> <span class="strong">{{userid}}</span> <a href="/admin/logout/">Logout</a></p>
 			</div>
            <div class="clearFloat"></div>
                <!--<div class="more">
@@ -63,21 +66,22 @@ label {
         <div class="one sidebar">
             <div class="widget">
                 <ul id="menu-accordeon">
-                    <li class="active"><a href="/users/">Ajouter user</a></li>
-                    <li><a href="/enregistrerCours/">parametrer</a></li>
-                    <li><a href="/ficheProfesseur/" >fiche professeur</a></li>
-					<li><a href="#" >Scolarite</a>
-                     <ul>
-                        <li><a href="#">DUT I</a></li>
-                        <li><a href="#">DUT II</a></li>
-                        <li><a href="#">Premiere Annee </a></li>
-                        <li><a href="#">Deuxieme Annee</a></li>
-                        <li><a href="#">Troisieme Annee</a></li>
-                        <li><a href="#">Master I</a></li>
-                        <li><a href="#">Master II</a></li>
-                     </ul>
+                    <li class="active"><a href="/admin/">Accueil</a></li>
+                    <li><a href="/admin/users/">Ajouter user</a></li>
+                    <li><a href="/admin/enregistrerCours/">parametrer</a></li>
+                    <li><a href="/admin/ficheProfesseuradmin/" >fiche professeur</a></li>
+					<!--<li><a href="#" >Scolarite</a>-->
+                     <!--<ul>-->
+                        <!--<li><a href="#">DUT I</a></li>-->
+                        <!--<li><a href="#">DUT II</a></li>-->
+                        <!--<li><a href="#">Premiere Annee </a></li>-->
+                        <!--<li><a href="#">Deuxieme Annee</a></li>-->
+                        <!--<li><a href="#">Troisieme Annee</a></li>-->
+                        <!--<li><a href="#">Master I</a></li>-->
+                        <!--<li><a href="#">Master II</a></li>-->
+                     <!--</ul>-->
 
-                    </li>
+                    <!--</li>-->
 
                 </ul>
             </div>
@@ -129,18 +133,18 @@ label {
         </tr>
 
     	<tr>
-        	<td><input type="checkbox" name="" /></td>
             {% for utilisateur in user %}
+        	<td><input type="checkbox" name="" /></td>
+
             <td>{{utilisateur.nom}}</td>
             <td>{{utilisateur.prenom}}</td>
             <td>{{utilisateur.email}}</td>
             <td>{{utilisateur.dateAjouter}}</td>
-
-
             <td><a href="../modifierProf/{{utilisateur.id}}/"><img src="{% static 'images/user_edit.png' %}" alt="" title="" border="0" /></a></td>
             <td><a href="../deleteProf/{{utilisateur.id}}/" ><img src="{% static 'images/trash.png' %}" alt="" title="" border="0" /></a></td>
-            {%endfor%}
+
         </tr>
+    {%endfor%}
 
     </tbody>
 </table></center>

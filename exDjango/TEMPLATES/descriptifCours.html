@@ -1,5 +1,5 @@
 
-{% extends "admin.html" %}
+{% extends "professeur.html" %}
 
 {% block content %}
 <center>
@@ -8,10 +8,11 @@
 	 <p>
       <label >Code cours</label>
       <select name = "code cours">
-          {{% for el in  codeCours %}}
-      <option >{{el.nomCours}}-{{el.grade}}{{el.semestre}}-{{el.etablissement}}</option>
-          {{% endfor %}}
-      </select>
+          {% for item in recuperate %}
+      <option >{{item.etablissement}}-{{item.grade}}{{item.semestre}}-{{item.nomCours}}</option>
+          {% endfor %}
+      </select><!--a href="/recupercode/{{item.id}}/">Delete</a>-->
+
     </p><br  />
 	<!--<p>-->
       <!--<label >Titre cours</label>-->
