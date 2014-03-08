@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b79afb3-f0fe-43bd-8096-c5a6d64f5c3f" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Ing. Dagrain\exoDjango\GestionESIH\settings.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static\design.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static\style.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static\design.css" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/static/css/design.css" />
-      <change type="MOVED" beforePath="C:\Users\Ing. Dagrain\exoDjango\exDjango\TEMPLATES\static\style.css" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/admin.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/admin.html" />
     </list>
     <ignored path="exoDjango.iws" />
     <ignored path=".idea/workspace.xml" />
