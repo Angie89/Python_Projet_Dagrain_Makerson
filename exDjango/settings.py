@@ -59,7 +59,7 @@ WSGI_APPLICATION = 'exDjango.wsgi.application'
 
 TEMPLATE_DIRS=(
     #"C:\Users\Ing. Dagrain\exoDjango\TEMPLATE"
-    os.path.join(os.path.dirname(__file__), 'TEMPLATES').replace('\\', '/'),
+    os.path.join(os.path.dirname(__file__), 'templates').replace('\\', '/'),
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -118,5 +118,5 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-    '/exDjango/TEMPLATES/static',
+    '/exDjango/templates/static',
 )
