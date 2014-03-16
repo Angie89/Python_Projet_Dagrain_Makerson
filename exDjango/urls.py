@@ -6,7 +6,7 @@ from enregistrer_cours.views import enregistrerCours
 from fiche_professeur.views import ficheProfesseuradmin,ficheProfesseurprof, modifierProf, deleteProf, professeur
 from descriptif_cours.views import descriptifCours, Objectives, Description, Ressources, Evaluations
 from enregistrer_cours.views import insertTitre, filtrage, modifier, modifierProgramme,recupercode
-from GestionESIH.views import ajouterUser, users, scolarite
+from GestionESIH.views import ajouterUser,scolarite
 
 #admin.autodiscover()
 
@@ -28,10 +28,10 @@ urlpatterns = patterns('',
     url(r'^professeur/ficheProfesseurprof/$', ficheProfesseurprof),
     url(r'^professeur/$', professeur),
     url(r'^professeur/descriptifCours/$', descriptifCours),
-    url(r'^Objectives/$',Objectives),
-    url(r'^Description/$',Description),
-    url(r'^Ressources/$',Ressources),
-    url(r'^Evaluations/$',Evaluations),
+    url(r'^professeur/Objectives/$',Objectives),
+    url(r'^professeur/Description/$',Description),
+    url(r'^professeur/Ressources/$',Ressources),
+    url(r'^professeur/Evaluations/$',Evaluations),
     url(r'^scolarite/$',scolarite),
     url(r'^filtrage/$', filtrage),
     url(r'^mod/(\d+)/$',modifier),

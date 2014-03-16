@@ -3,6 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="3b79afb3-f0fe-43bd-8096-c5a6d64f5c3f" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Ing. Dagrain\exoDjango\GestionESIH\settings.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/Description.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/Description.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/Evaluations.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/Evaluations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/Objectives.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/Objectives.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/Ressources.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/Ressources.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/admin.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/admin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GestionESIH/models.py" afterPath="$PROJECT_DIR$/GestionESIH/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authentification/models.py" afterPath="$PROJECT_DIR$/authentification/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/descriptif_cours/models.py" afterPath="$PROJECT_DIR$/descriptif_cours/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enregistrer_cours/models.py" afterPath="$PROJECT_DIR$/enregistrer_cours/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fiche_professeur/models.py" afterPath="$PROJECT_DIR$/fiche_professeur/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/settings.py" afterPath="$PROJECT_DIR$/exDjango/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/urls.py" afterPath="$PROJECT_DIR$/exDjango/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/TEMPLATES/users.html" afterPath="$PROJECT_DIR$/exDjango/TEMPLATES/users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GestionESIH/views.py" afterPath="$PROJECT_DIR$/GestionESIH/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authentification/views.py" afterPath="$PROJECT_DIR$/authentification/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/descriptif_cours/views.py" afterPath="$PROJECT_DIR$/descriptif_cours/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enregistrer_cours/views.py" afterPath="$PROJECT_DIR$/enregistrer_cours/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fiche_professeur/views.py" afterPath="$PROJECT_DIR$/fiche_professeur/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exDjango/wsgi.py" afterPath="$PROJECT_DIR$/exDjango/wsgi.py" />
     </list>
     <ignored path="exoDjango.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,64 +46,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/admin.html">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authentification/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="15" selection-start="594" selection-end="594" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="2992">
+            <state line="53" column="80" selection-start="1903" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1326">
               <folding>
-                <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Evaluations.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Evaluations.html">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/descriptif_cours/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="870" selection-end="871" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="459">
-              <folding />
+            <state line="11" column="40" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exDjango/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2159">
+            <state line="78" column="29" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.6743802" vertical-offset="918" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exDjango/wsgi.py">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/descriptif_cours/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.5057851" vertical-offset="0" max-vertical-offset="605">
+            <state line="22" column="37" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enregistrerCours.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/enregistrerCours.html">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enregistrer_cours/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="371" selection-end="507" vertical-scroll-proportion="-0.65384614" vertical-offset="102" max-vertical-offset="1632">
-              <folding />
+            <state line="33" column="42" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Description.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Description.html">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enregistrer_cours/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="763" selection-end="763" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+            <state line="20" column="25" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fiche_professeur/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="49" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="901">
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listingTitreCours.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/listingTitreCours.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="20" selection-start="527" selection-end="527" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ficheProfesseuradmin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseuradmin.html">
+      <file leaf-file-name="ficheProfesseurprof.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseurprof.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1054">
               <folding />
@@ -93,25 +140,7 @@
       <file leaf-file-name="descriptifCours.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="537" selection-end="537" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Objectives.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Objectives.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ressources.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Ressources.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+            <state line="10" column="28" selection-start="400" selection-end="400" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -135,22 +164,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/authentification/views.py" />
         <option value="$PROJECT_DIR$/exDjango/TEMPLATES/users.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseur.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseurprof.html" />
+        <option value="$PROJECT_DIR$/authentification/models.py" />
+        <option value="$PROJECT_DIR$/authentification/views.py" />
+        <option value="$PROJECT_DIR$/GestionESIH/views.py" />
         <option value="$PROJECT_DIR$/fiche_professeur/views.py" />
-        <option value="$PROJECT_DIR$/exDjango/urls.py" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Professeur.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/admin.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/enregistrerCours.html" />
+        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Ressources.html" />
+        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Objectives.html" />
         <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Evaluations.html" />
         <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Description.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Objectives.html" />
-        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/Ressources.html" />
+        <option value="$PROJECT_DIR$/exDjango/urls.py" />
+        <option value="$PROJECT_DIR$/enregistrer_cours/views.py" />
+        <option value="$PROJECT_DIR$/enregistrer_cours/models.py" />
+        <option value="$PROJECT_DIR$/descriptif_cours/models.py" />
+        <option value="$PROJECT_DIR$/descriptif_cours/views.py" />
+        <option value="$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html" />
         <option value="$PROJECT_DIR$/exDjango/settings.py" />
-        <option value="$PROJECT_DIR$/exDjango/wsgi.py" />
       </list>
     </option>
   </component>
@@ -215,20 +244,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fiche_professeur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="exDjango" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -248,28 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TEMPLATES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TEMPLATES" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,34 +291,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="descriptif_cours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="authentification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exoDjango" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionESIH" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,15 +498,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22239263" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20935583" sideWeight="0.6993865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -550,10 +514,30 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14417177" sideWeight="0.6702454" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3006135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -569,127 +553,128 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/enregistrer_cours/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="40" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.0" vertical-offset="1316" max-vertical-offset="1921">
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/modifierProf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Professeur.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="32" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-13.269231" vertical-offset="811" max-vertical-offset="2601">
-          <folding>
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#form#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#6;n#form#0;n#center#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseurprof.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding>
-            <element signature="n#style#0;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#p#6;n#form#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseuradmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/enregistrerCours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="371" selection-end="507" vertical-scroll-proportion="-0.65384614" vertical-offset="102" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="537" selection-end="537" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="594" selection-end="594" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="2992">
-          <folding>
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Ressources.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+        <state line="14" column="49" selection-start="811" selection-end="811" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Objectives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Description.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="763" selection-end="763" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+        <state line="18" column="49" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Evaluations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="870" selection-end="871" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="459">
+        <state line="16" column="49" selection-start="959" selection-end="959" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exDjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="211" max-vertical-offset="816">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/Description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GestionESIH/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="47" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="1088">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fiche_professeur/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="49" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="901">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/ficheProfesseurprof.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enregistrer_cours/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/listingTitreCours.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="527" selection-end="527" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authentification/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="80" selection-start="1903" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1326">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enregistrer_cours/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="42" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptif_cours/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exDjango/TEMPLATES/descriptifCours.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="400" selection-end="400" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptif_cours/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exDjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exDjango/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.5057851" vertical-offset="0" max-vertical-offset="605">
+        <state line="78" column="29" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.6743802" vertical-offset="918" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>

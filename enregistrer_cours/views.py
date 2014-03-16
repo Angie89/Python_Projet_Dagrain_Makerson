@@ -8,7 +8,7 @@ from enregistrer_cours.models import TitreCours, Programme
 
 
 def enregistrerCours(request):
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template("enregistrerCours.html")
     cours = html.render(Context(context))
     return HttpResponse(cours)
@@ -26,7 +26,7 @@ def insertTitre(request):
         pass
     except KeyError:
         pass
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template('enregistrerCours.html')
     page = html.render(Context(context))
     return HttpResponse(page)
@@ -83,7 +83,7 @@ def modifier(request, id):
         pass
     except:
         pass
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template('modificationCode.html')
     page = html.render(Context(context))
     return HttpResponse(page)
@@ -96,7 +96,7 @@ def modifierProgramme(request, id):
         pass
     except:
         pass
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template('modificationProgramme.html')
     page = html.render(Context(context))
     return HttpResponse(page)

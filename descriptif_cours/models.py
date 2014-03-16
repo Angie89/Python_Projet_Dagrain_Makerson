@@ -16,7 +16,7 @@ class Professeur (models.Model):
     blog = models.URLField()
 
 
-class TitreCours (models.Model):
+class TitreCours(models.Model):
     grade = models.CharField(max_length=10)
     etablissement = models.CharField(max_length=50, default='ESIH')
     semestre = models.CharField(max_length=10)
@@ -28,13 +28,13 @@ class PlanCours(models.Model):
     Ressources = models.TextField()
     evaluations = models.TextField()
 
-class Cours (models.Model):
-    code_cours = models.IntegerField()
-    professeur = models.ForeignKey(Professeur)
-    titre_cours = models.ForeignKey(TitreCours)
-    planCours = models.ForeignKey(PlanCours)
-    credits = models.IntegerField()
-    pre_requis = models.TextField()
-    lieu = models.CharField(max_length=50)
-    public_cible = models.CharField(max_length=20)
-    format = models.CharField(max_length=20)
+# class Cours (models.Model):
+#     code_cours = models.IntegerField()
+#     professeur = models.ForeignKey(Professeur)
+#     titre_cours = models.ForeignKey(TitreCours)
+#     planCours = models.ForeignKey(PlanCours)
+#     credits = models.IntegerField()
+#     pre_requis = models.TextField()
+#     lieu = models.CharField(max_length=50)
+#     public_cible = models.CharField(max_length=20)
+#     format = models.CharField(max_length=20)

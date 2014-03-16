@@ -8,7 +8,7 @@
 	 <p>
       <label >Code cours</label>
       <select name = "code cours">
-          {% for item in recuperate %}
+          {% for item in cod %}
       <option >{{item.etablissement}}-{{item.grade}}{{item.semestre}}-{{item.nomCours}}</option>
           {% endfor %}
       </select><!--a href="/recupercode/{{item.id}}/">Delete</a>-->
@@ -66,13 +66,13 @@
     </p>
         <div class="more margin-30px">
                     <ul>
-                        <li><a href="../Objectives/">&laquo;</a></li>
+                        <li><a href="/professeur/Objectives/">&laquo;</a></li>
                         <li class="active"><span>1</span></li>
-                        <li><a href="../Objectives/">2</a></li>
-                        <li><a href="../Description/">3</a></li>
-                        <li><a href="../Evaluations/">4</a></li>
-                        <li><a href="../Ressources/">5</a></li>
-                        <li><a href="../Ressources/">&raquo;</a></li>
+                        <li><a href="/professeur/Objectives/">2</a></li>
+                        <li><a href="/professeur/Description/">3</a></li>
+                        <li><a href="/professeur/Evaluations/">4</a></li>
+                        <li><a href="/professeur/Ressources/">5</a></li>
+                        <li><a href="/professeur/Ressources/">&raquo;</a></li>
                     </ul>
                 </div>
      </form>

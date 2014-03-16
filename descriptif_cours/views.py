@@ -10,31 +10,30 @@ from enregistrer_cours.models import PlanCours
 
 def descriptifCours(request):
     codeCours = TitreCours.objects.all()
-    context = {}
     html = get_template("descriptifCours.html")
-    page=html.render(Context({'cod':codeCours}))
+    page=html.render(Context({'cod':codeCours,'userid':request.session['userid']}))
     return HttpResponse(page)
 
 def Objectives(request):
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template("Objectives.html")
     ob = html.render(Context(context))
     return HttpResponse(ob)
 
 def Description(request):
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template("Description.html")
     descrip = html.render(Context(context))
     return HttpResponse(descrip)
 
 def Ressources(request):
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template("Ressources.html")
     res = html.render(Context(context))
     return HttpResponse(res)
 
 def Evaluations(request):
-    context = {}
+    context = {'userid':request.session['userid']}
     html = get_template("Evaluations.html")
     evalu = html.render(Context(context))
     return HttpResponse(evalu)
